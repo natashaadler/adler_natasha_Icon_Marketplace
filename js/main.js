@@ -12,7 +12,7 @@
 
 	//this is letting us make the connection between the toggleButton and the switch-text
 	// document means the webpage itself
-	//let or const are the same as var but a better way
+	//let or const are the same as var
 	let toggleButton = document.querySelector(".btn"),
 		myHeading = document.querySelector('h1'),
 		// # because its an Id
@@ -20,7 +20,7 @@
 	  allSVGs = document.querySelectorAll(".svg");
 
 function changeText() {
-		myheading.textContent = "Whats up? I am script!";
+		myHeading.textContent = "Whats up? I am script!";
 }
 
 // this function should log the ID for each SVG to the console
