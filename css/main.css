@@ -1,0 +1,29 @@
+.img-wrapper {
+  display: inline-block;
+  width: 40%;
+  padding: 10px 15px }
+
+/* > direct descendent to the left */
+/* ~ */
+/*any image thats inside that div */
+.img-wrapper > img { width: 100%; }
+
+.black-background {
+  background-color: black;
+}
+
+.st0{
+  fill: #333
+}
+
+/* #rGrain:hover, #lGrain:hover {
+  fill: red;
+} */
+
+#beerGraphic:hover #lGrain {
+  fill: red;
+}
+
+#beerGraphic:hover #rGrain {
+  fill: red;
+}
