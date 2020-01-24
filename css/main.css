@@ -13,12 +13,16 @@
 }
 
 .st0{
-  fill: #333
+  fill: #333;
 }
 
 /* #rGrain:hover, #lGrain:hover {
   fill: red;
 } */
+
+#Shakers:hover #topLeft {
+  fill: red;
+}
 
 #beerGraphic:hover #lGrain {
   fill: red;
