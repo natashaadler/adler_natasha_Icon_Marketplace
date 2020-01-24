@@ -5,7 +5,7 @@
 
 
 (() => {
-	console.log('hello from JS');
+	console.log('hello from Music Mania');
 
 	//find elements in the document
 	//next to let is a variable can be named anything

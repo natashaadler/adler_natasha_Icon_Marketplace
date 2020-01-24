@@ -1,0 +1,35 @@
+
+/* em is a relative measure in relation to body font size*/
+body{
+  font-size: 14px;
+  padding: 1em;
+}
+
+main span {
+padding: 0.75em 1em;
+cursor: pointer;
+
+}
+
+.selected {
+  color: red;
+}
+
+/*:before pseudo-element */
+.selected::before {
+  content: "\2713";
+}
+
+object {
+  width: 8em;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+/* * star selector means select everything and > direct decended (direct Child) */
+.wrapper > * {
+  pointer-events:none
+}
